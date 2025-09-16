@@ -1,0 +1,4 @@
+build-essential
+g++
+cmake
+libopencv-dev
