@@ -5,3 +5,10 @@ Este entorno reproduce un ambiente listo para análisis científicos con Python 
 Archivos necesarios:
 - `requirements.txt` (librerías Python)
 - `apt.txt` (dependencias del sistema como `g++` y `cmake`)
+
+
+Para instalar las liberías localemte con `uv`:
+
+    uv venv .venv
+    source .venv/bin/activate   # en Linux/Mac
+    uv pip install -r requirements.txt
