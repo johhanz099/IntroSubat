@@ -7,8 +7,10 @@ Archivos necesarios:
 - `apt.txt` (dependencias del sistema como `g++` y `cmake`)
 
 
-Para instalar las liberías localemte con `uv`:
+Para instalar las liberías localmente con `uv`:
 
     uv venv .venv
     source .venv/bin/activate   # en Linux/Mac
     uv pip install -r requirements.txt
+
+Para desactivar `deactivate`    
